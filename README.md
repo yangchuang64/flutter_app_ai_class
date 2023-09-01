@@ -1,16 +1,7 @@
-# flutter_app_ai_math
+# flutter_app_ai_class
 
-A new Flutter project.
+少儿外语ai课
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+这个一个少儿外语项目，少儿可以在app上课，老师会讲知识点，每个知识点结束后，会做一个小游戏来巩固。

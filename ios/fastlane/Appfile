@@ -1,0 +1,6 @@
+app_identifier("com.blingabc.ai") # The bundle identifier of your app
+apple_id("weixin@blingabc.com") # Your Apple email address
+team_id("D6BW6QMZSL")
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

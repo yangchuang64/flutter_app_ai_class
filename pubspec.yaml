@@ -1,0 +1,140 @@
+name: flutter_app_ai_math
+description: ai math
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.2.5
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+
+  #极验验证
+  fluttergeetestplugin:
+    git:
+      url: http://gs.blingabc.com/flutter/flutter_geetest_plugin.git
+
+  image_picker: 0.6.2
+  image_cropper: 1.1.2
+  flutter_easyrefresh: ^2.1.5
+
+  # 音频播放器
+  #audioplayers: 0.13.6
+
+  # ai_plugin
+  flutterblingaiplugin:
+#    git:
+#      url: http://gs.blingabc.com/wangjianhui/flutter_bling_ai_plugin.git
+    path: /Users/yangtf/Documents/source/bling/flutter_bling_ai_plugin
+
+  # 安卓升级安装apk工具
+  install_plugin: 2.0.1
+  pull_to_refresh: ^1.6.0
+
+#  device_preview: ^0.4.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/ai_package/images/aiMath/
+    - assets/ai_package/images/coin/
+    - assets/ai_package/images/utils/
+    - assets/ai_package/json/
+    - assets/ai_package/images/path/
+    - assets/ai_package/flares/
+    - assets/ai_package/images/login/
+    - assets/ai_package/images/personalCenter/
+    - assets/ai_package/audio/
+    - assets/ai_package/audio/aiClassAudio/
+    - assets/ai_package/images/game/
+    - assets/ai_package/images/game/single_choose/
+    - assets/ai_package/images/game/success/
+    - assets/ai_package/images/game/wrong/
+    - assets/ai_package/audio/game/single_choose/
+    - assets/ai_package/images/game/tie_line/
+    - assets/ai_package/audio/game/tie_line/
+    - assets/ai_package/images/game/sentence/short/
+    - assets/ai_package/images/game/sentence/long/
+    - assets/ai_package/audio/game/sentence/
+    - assets/ai_package/audio/game/long_sentence/
+    - assets/ai_package/images/game/pick_words/
+    - assets/ai_package/images/game/pick_words_old/
+    - assets/ai_package/images/game/char_fill_blank/
+    - assets/ai_package/images/game/char_fill_blank_tv/
+    - assets/ai_package/images/game/across_the_river/
+    - assets/ai_package/images/game/card_game/
+    - assets/ai_package/images/game/card_game/timeout/
+    - assets/ai_package/images/game/card_game/success/
+    - assets/ai_package/images/game/card_game/card_star/
+    - assets/ai_package/images/game/card_game/coco/
+    - assets/ai_package/images/game/choose_chars/
+    - assets/ai_package/audio/game/choose_chars/
+    - assets/ai_package/images/game/joinTrain/
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #  - images/a_dot_burr.jpeg
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  fonts:
+    - family: FZY4JW
+      fonts:
+        - asset: assets/ai_package/font/FZY4JW.TTF
+        - asset: assets/ai_package/font/pinyin.TTF
+
+
+
+
+
+
+

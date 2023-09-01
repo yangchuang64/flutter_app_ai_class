@@ -1,0 +1,15 @@
+{
+  "code": 10000,
+  "msg": "操作成功",
+  "data": {
+    "stuNum": "学生名字",
+    "xdfCode": "新东方学号",
+    "headImg": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1586629608517&di=6d0354d3456b295ad6aebba7e5d9884a&imgtype=0&src=http%3A%2F%2Fpics1.baidu.com%2Ffeed%2F1c950a7b02087bf47b2a5c35de261f2a13dfcf27.jpeg%3Ftoken%3D846e05a11800e243c7d907377c6a962e%26s%3DA7965D848A3A068CE4B010340300D040",
+    "enName": "tony",
+    "name": "托尼",
+    "age": 6,
+    "sex": 1,
+    "grade": 3,
+    "birthday": "2020-01-01"
+  }
+}
